@@ -32,7 +32,7 @@ export const UserProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     }
 
     // Constant avatar for the connected user
-    const constantAvatar = "https://api.dicebear.com/7.x/avataaars/svg?seed=GovCircleUser123&backgroundColor=b6e3f4";
+    const constantAvatar = `${import.meta.env.BASE_URL}/assets/govcircle-user-avatar.jpg`;
 
     setUser({
       username: finalUsername,
