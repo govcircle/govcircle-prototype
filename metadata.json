@@ -1,0 +1,5 @@
+{
+  "name": "GovCircle Constitution Viewer",
+  "description": "A component-first, config-driven React application for viewing recursive governance documents with advanced navigation.",
+  "requestFramePermissions": []
+}
