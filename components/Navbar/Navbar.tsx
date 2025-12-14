@@ -30,7 +30,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onMenuClick }) => {
           </Button>
           <div className="flex items-center gap-2">
              <img 
-                src="/assets/govcircle.jpg"
+                src= {`${process.env.PUBLIC_URL}/assets/govcircle.jpg`}
                 alt="GovCircle" 
                 className="w-10 h-10 object-contain"
              />

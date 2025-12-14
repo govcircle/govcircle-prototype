@@ -5,15 +5,15 @@ import { Opinion, EventStatus, RoleIdentity, ActionType, EventDuty } from '../ty
 // that doesn't support importing non-JS files directly without a bundler.
 // These paths assume the 'assets' folder is served at the root '/assets'.
 
-const yutaImg = '/assets/yuta.jpeg';
-const peteImg = '/assets/pete.jpg';
-const lindaImg = '/assets/linda.jpg';
-const peytonImg = '/assets/peyton.jpg';
-const philImg = '/assets/phil.jpg';
-const ktorzImg = '/assets/ktorz.jpg';
-const beeImg = '/assets/bee.jpg';
-const hornanImg = '/assets/hornan.jpg';
-const cernyImg = '/assets/cerny.jpg';
+const yutaImg = `${process.env.PUBLIC_URL}/assets/yuta.jpeg`;
+const peteImg = `${process.env.PUBLIC_URL}/assets/pete.jpg`;
+const lindaImg = `${process.env.PUBLIC_URL}/assets/linda.jpg`;
+const peytonImg = `${process.env.PUBLIC_URL}/assets/peyton.jpg`;
+const philImg = `${process.env.PUBLIC_URL}/assets/phil.jpg`;
+const ktorzImg = `${process.env.PUBLIC_URL}/assets/ktorz.jpg`;
+const beeImg = `${process.env.PUBLIC_URL}/assets/bee.jpg`;
+const hornanImg = `${process.env.PUBLIC_URL}/assets/hornan.jpg`;
+const cernyImg = `${process.env.PUBLIC_URL}/assets/cerny.jpg`;
 
 // --- DATA SOURCE & HELPERS ---
 
