@@ -5,15 +5,15 @@ import { Opinion, EventStatus, RoleIdentity, ActionType, EventDuty } from '../ty
 // that doesn't support importing non-JS files directly without a bundler.
 // These paths assume the 'assets' folder is served at the root '/assets'.
 
-const yutaImg = `${process.env.PUBLIC_URL}/assets/yuta.jpeg`;
-const peteImg = `${process.env.PUBLIC_URL}/assets/pete.jpg`;
-const lindaImg = `${process.env.PUBLIC_URL}/assets/linda.jpg`;
-const peytonImg = `${process.env.PUBLIC_URL}/assets/peyton.jpg`;
-const philImg = `${process.env.PUBLIC_URL}/assets/phil.jpg`;
-const ktorzImg = `${process.env.PUBLIC_URL}/assets/ktorz.jpg`;
-const beeImg = `${process.env.PUBLIC_URL}/assets/bee.jpg`;
-const hornanImg = `${process.env.PUBLIC_URL}/assets/hornan.jpg`;
-const cernyImg = `${process.env.PUBLIC_URL}/assets/cerny.jpg`;
+const yutaImg =  `${import.meta.env.BASE_URL}assets/yuta.jpeg`;
+const peteImg =  `${import.meta.env.BASE_URL}assets/pete.jpg`;
+const lindaImg = `${import.meta.env.BASE_URL}assets/linda.jpg`;
+const peytonImg =`${import.meta.env.BASE_URL}assets/peyton.jpg`;
+const philImg =  `${import.meta.env.BASE_URL}assets/phil.jpg`;
+const ktorzImg = `${import.meta.env.BASE_URL}assets/ktorz.jpg`;
+const beeImg =   `${import.meta.env.BASE_URL}assets/bee.jpg`;
+const hornanImg =`${import.meta.env.BASE_URL}assets/hornan.jpg`;
+const cernyImg = `${import.meta.env.BASE_URL}assets/cerny.jpg`;
 
 // --- DATA SOURCE & HELPERS ---
 
