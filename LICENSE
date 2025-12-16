@@ -1,0 +1,34 @@
+Copyright (c) 2025 Govcircle
+All Rights Reserved.
+
+Third-Party Content: This license applies exclusively to the original source code authored by the copyright holder and does not grant any rights to third-party content, user-contributed content, trademarks, service names, or other intellectual property included in the repository for demonstration or informational purposes.
+
+This repository contains a proprietary prototype developed for internal
+research and product development purposes.
+
+The source code is made available on a source-visible basis solely to allow
+review, evaluation, and high-level understanding of the implementation.
+
+No rights are granted to use, copy, modify, merge, publish, distribute,
+sublicense, deploy, or otherwise exploit this software, in whole or in part,
+for any purpose.
+
+Without limitation, the following actions are expressly prohibited:
+
+- Copying or reproducing any portion of the code
+- Reusing the code or any part thereof in other projects
+- Creating derivative works or adaptations
+- Redistributing the code or derivative works
+- Running, deploying, or using the software in production
+- Using the software for commercial, organizational, or internal business purposes
+- Treating the code as a reference or baseline implementation
+
+Any use beyond passive inspection requires a separate commercial license
+and explicit written authorization from the copyright holder.
+
+This license does not grant any rights in patents, trademarks, trade secrets,
+or other intellectual property.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
