@@ -132,7 +132,7 @@ export const opinionData: Opinion[] = [
         duration: "1h 30m",
         status: "Finished",
         socialMedia: "x",
-        link: "https://twitter.com/i/spaces/yuta_space",
+        link: "https://x.com/yuta_cryptox",
         hosts: [
           { ...getOwner("YUTA"), duty: "Host" },
           { ...getOwner("Bee"), duty: "Co-Host" },
@@ -147,7 +147,7 @@ export const opinionData: Opinion[] = [
         duration: "2h 00m",
         status: "Live Now",
         socialMedia: "discord",
-        link: "https://discord.gg/cardano-japan",
+        link: "https://x.com/yuta_cryptox",
         hosts: [
           { ...getOwner("YUTA"), duty: "Host" },
           { ...getOwner("Peter"), duty: "Speaker" }
@@ -257,7 +257,7 @@ export const opinionData: Opinion[] = [
             duration: "48h 00m",
             status: "Waiting",
             socialMedia: "discord",
-            link: "https://discord.gg/cardano-mobile",
+            link: "https://x.com/astroboysoup",
             hosts: [
                 { ...getOwner("Peter"), duty: "Host" },
                 { ...getOwner("KtorZ"), duty: "Speaker" }
@@ -387,7 +387,7 @@ export const opinionData: Opinion[] = [
             duration: "1h 30m",
             status: "Finished",
             socialMedia: "x",
-            link: "https://twitter.com/i/spaces/qv_workshop",
+            link: "https://x.com/Cryptofly777",
             hosts: [
                 { ...getOwner("Linda"), duty: "Host" },
                 { ...getOwner("Nicolas"), duty: "Co-Host" }
@@ -401,7 +401,7 @@ export const opinionData: Opinion[] = [
             duration: "1h 00m",
             status: "Canceled",
             socialMedia: "youtube",
-            link: "https://youtube.com/cryptofly",
+            link: "https://x.com/Cryptofly777",
             hosts: [
                 { ...getOwner("Linda"), duty: "Host" },
                 { ...getOwner("Bee"), duty: "Speaker" }
@@ -533,7 +533,7 @@ export const opinionData: Opinion[] = [
             duration: "1h 30m",
             status: "Live Now",
             socialMedia: "x",
-            link: "https://twitter.com/i/spaces/growth_ama",
+            link: "https://x.com/bigpeyYT",
             hosts: [
                 { ...getOwner("Peyton"), duty: "Host" },
                 { ...getOwner("Peter"), duty: "Co-Host" }
@@ -796,7 +796,7 @@ export const opinionData: Opinion[] = [
             duration: "2h 00m",
             status: "Waiting",
             socialMedia: "discord",
-            link: "https://discord.gg/cardano-devs",
+            link: "https://x.com/_KtorZ_",
             hosts: [
                 { ...getOwner("KtorZ"), duty: "Host" },
                 { ...getOwner("Phil"), duty: "Co-Host" }
@@ -810,7 +810,7 @@ export const opinionData: Opinion[] = [
             duration: "1h 30m",
             status: "Live Now",
             socialMedia: "youtube",
-            link: "https://youtube.com/ktorz_dev",
+            link: "https://x.com/_KtorZ_",
             hosts: [
                 { ...getOwner("KtorZ"), duty: "Host" }
             ]
@@ -957,7 +957,7 @@ export const opinionData: Opinion[] = [
             duration: "1h 30m",
             status: "Waiting",
             socialMedia: "x",
-            link: "https://twitter.com/i/spaces/ethics_web3",
+            link: "https://x.com/BeatriceAnihiri",
             hosts: [
                 { ...getOwner("Bee"), duty: "Host" },
                 { ...getOwner("Linda"), duty: "Speaker" }
@@ -1196,7 +1196,7 @@ export const opinionData: Opinion[] = [
             duration: "2h 00m",
             status: "Waiting",
             socialMedia: "discord",
-            link: "https://discord.gg/sidechains",
+            link: "https://x.com/NicolasC3rny",
             hosts: [
                 { ...getOwner("Nicolas"), duty: "Host" },
                 { ...getOwner("KtorZ"), duty: "Speaker" }
@@ -1210,7 +1210,7 @@ export const opinionData: Opinion[] = [
             duration: "1h 30m",
             status: "Finished",
             socialMedia: "x",
-            link: "https://twitter.com/i/spaces/bridges",
+            link: "https://x.com/NicolasC3rny",
             hosts: [
                 { ...getOwner("Nicolas"), duty: "Host" }
             ]
