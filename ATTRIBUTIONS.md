@@ -25,6 +25,7 @@ and prototyping purposes only. All rights remain with their respective owners.
 ## Cardano Constitution References
 - `/data/opinions.ts`
 - `/data/versionHistory.ts`
+
 Any references to the “Cardano Constitution” within this repository, including
 text, data structures, UI representations, or version identifiers, are either
 derived from publicly readable on-chain information or are entirely fictional
