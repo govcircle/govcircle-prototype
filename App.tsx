@@ -168,7 +168,10 @@ function AppContent() {
 
   return (
     <div className="min-h-screen bg-background text-textPrimary font-sans antialiased selection:bg-primary/30 transition-colors duration-300">
-      <Navbar onMenuClick={() => setIsDrawerOpen(true)} />
+      <Navbar
+          onMenuClick={() => setIsDrawerOpen(true)}
+          onHomeClick={() => navigateTo('version-history')}
+      />
       
       <Breadcrumbs items={breadcrumbs} />
 

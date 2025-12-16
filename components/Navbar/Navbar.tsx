@@ -10,7 +10,7 @@ interface NavbarProps {
   onMenuClick: () => void;
 }
 
-export const Navbar: React.FC<NavbarProps> = ({ onMenuClick }) => {
+export const Navbar: React.FC<NavbarProps> = ({ onMenuClick, onHomeClick }) => {
   const { theme, toggleTheme } = useTheme();
   const { user, isConnected, connect, disconnect } = useUser();
   const [isWalletModalOpen, setIsWalletModalOpen] = useState(false);
@@ -28,7 +28,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onMenuClick }) => {
           <Button variant="ghost" onClick={onMenuClick} className="p-2">
             <Menu size={24} />
           </Button>
-          <div className="flex items-center gap-2">
+          <div
+              className="flex items-center gap-2"
+              onClick={onHomeClick}
+          >
              <img 
                 src= {`${import.meta.env.BASE_URL}/assets/govcircle.png`}
                 alt="GovCircle" 
