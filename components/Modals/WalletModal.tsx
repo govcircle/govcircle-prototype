@@ -9,11 +9,11 @@ interface WalletModalProps {
 }
 
 const WALLETS = [
-  { name: 'Nami', icon: 'https://www.namiwallet.io/favicon.ico' },
-  { name: 'Eternl', icon: 'https://ccvault.io/icons/eternl.png' },
-  { name: 'Flint', icon: 'https://flint-wallet.com/favicon.ico' },
-  { name: 'Yoroi', icon: 'https://yoroi-wallet.com/assets/favicon.ico' },
-  { name: 'Typhon', icon: 'https://typhonwallet.io/assets/images/logo.svg' }
+    { name: 'Lace', icon: 'https://www.lace.io/favicon.ico' },
+    { name: 'Nami', icon: `${import.meta.env.BASE_URL}/assets/nami.png` },
+    { name: 'Eternl', icon: `${import.meta.env.BASE_URL}/assets/eternl.png` },
+    { name: 'NuFi', icon: 'https://nu.fi/favicon.ico' },
+    { name: 'Yoroi', icon: 'https://yoroi-wallet.com/assets/favicon.ico' }
 ];
 
 export const WalletModal: React.FC<WalletModalProps> = ({ isOpen, onClose, onConnect }) => {
@@ -66,8 +66,16 @@ export const WalletModal: React.FC<WalletModalProps> = ({ isOpen, onClose, onCon
                             `}
                         >
                             <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center overflow-hidden p-1">
-                                {/* Fallback icon if image fails (using simple div) */}
-                                <div className="w-full h-full bg-slate-200 rounded-full" />
+                                <img
+                                    src={w.icon}
+                                    alt={w.name}
+                                    className="w-full h-full object-contain"
+                                    onError={(e) => {
+                                        // Fallback if image fails
+                                        (e.target as HTMLImageElement).style.display = 'none';
+                                        (e.target as HTMLImageElement).parentElement!.style.backgroundColor = '#ccc';
+                                    }}
+                                />
                             </div>
                             <span className={`text-xs font-bold ${selectedWallet === w.name ? 'text-primary' : 'text-textSecondary'}`}>
                                 {w.name}
