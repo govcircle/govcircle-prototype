@@ -9,7 +9,7 @@ export default defineConfig(({mode}) => {
             port: 3000,
             host: '0.0.0.0',
         },
-        base: "/govcircle-prototype",
+        base: "/govcircle-prototype/",
         plugins: [react()],
         resolve: {
             alias: {
